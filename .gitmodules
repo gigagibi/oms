@@ -1,0 +1,6 @@
+[submodule "oms-backend"]
+	path = oms-backend
+	url = https://github.com/gigagibi/oms-backend
+[submodule "oms-frontend"]
+	path = oms-frontend
+	url = https://github.com/gigagibi/oms-frontend
