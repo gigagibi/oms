@@ -1,0 +1,60 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+functional requirements
+1. User management
+Registration, authorization, roles: Administrator, Manager, Warehouse, Supplier.
+
+Manage roles and accesses.
+
+2. Working with orders
+Creating a new order (manager).
+
+Linking products to an order.
+
+Indicating the delivery date and order status.
+
+Statuses: Draft → In process → Awaiting delivery → Completed / Cancelled.
+
+Viewing and filtering orders.
+
+3. Product management
+Adding, editing, deleting products.
+
+Categorization of products.
+
+Indicating price, units of measurement, balances.
+
+4. Supplier management
+Adding/editing information about a supplier.
+
+Linking products to a supplier.
+
+Tracking reliability (rating, supply statistics).
+
+5. Warehouse accounting
+Accounting for receipts and write-offs of goods.
+
+Automatic updating of balances upon receipt by order.
+
+Low stock level signals.
+
+6. Reports
+Orders by periods, suppliers, goods.
+
+Warehouse report (balances, movements).
+
+Supplier efficiency report.
+
+7. Notifications
+On order status changes.
+
+On critical balances.
+
+On overdue orders.
+
+8. Action audit
+
+User action log (creation, editing, deletion, order status, etc.).
